@@ -28,8 +28,23 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/demo")
 public class DemoController {
+    //SpringMVC的异常处理机制（异常处理器）
+    //注意：只会对当前Controller生效
+    /*@ExceptionHandler(ArithmeticException.class)
+    @ResponseBody
+    public void handleException(ArithmeticException exception,HttpServletResponse response) {
+        //异常处理逻辑
+        try {
+            response.getWriter().write(exception.getMessage());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }*/
     @RequestMapping("/handle01")
-    public ModelAndView handle01() {
+    public ModelAndView handle01(@ModelAttribute("name") String name) {
+
+        int c = 1 / 0;
+
         Date date = new Date();//服务器时间
         //返回服务器时间到前端页面
         //封装了数据和页面信息的模型
@@ -201,5 +216,48 @@ public class DemoController {
         modelAndView.addObject("date",date);
         modelAndView.setViewName("success");
         return modelAndView;
+    }
+    /*
+     * restful  get   /demo/handle/15
+     */
+    @RequestMapping(value = "/upload")
+    public ModelAndView upload(MultipartFile uploadFile,HttpSession session) throws IOException {
+
+        //处理上传文件
+        //重命名,原名123.jpg，获取后缀
+        String originalFilename = uploadFile.getOriginalFilename();
+        //扩展名
+        String ext = originalFilename.substring(originalFilename.lastIndexOf(".") + 1, originalFilename.length());
+        String newName = UUID.randomUUID().toString() + "." + ext;
+        //存储要存储到指定的文件夹，/upload/yyyy-MM-dd，考虑文件过多的情况,按照日期生成一个子文件夹
+        String realPath = session.getServletContext().getRealPath("uploads");
+        String datePath = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+        File folder = new File(realPath + "/" + datePath);
+        if (!folder.exists()) {
+            folder.mkdir();
+        }
+
+        //存储
+        uploadFile.transferTo(new File(folder, newName));
+        //TODO 存储的磁盘路径要更新到数据库字段
+
+        Date date = new Date();
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("date",date);
+        modelAndView.setViewName("success");
+        return modelAndView;
+    }
+
+    /**
+     * SpringMVC重定向参数传递的问题
+     * 转发：A找B借钱 400，B没有钱悄悄的找到C借了400元给A
+     * 转发：url不会变，参数不会丢失，一个请求
+     * 重定向：A找B借400，B：没钱，去找别人借，那么A又带着400元的借钱需求找到C
+     * 重定向：url会变，参数会丢失需要重新携带参数，两个请求
+     */
+    @RequestMapping("handleRedirect")
+    public String handleRedirect(String name,RedirectAttributes redirectAttributes) {
+        redirectAttributes.addFlashAttribute("name",name);
+        return "redirect:handler01";
     }
 }

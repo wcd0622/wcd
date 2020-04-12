@@ -1,1 +1,5 @@
+com\lagou\edu\pojo\QueryVo.class
+com\lagou\edu\converter\DateConverter.class
+com\lagou\edu\controller\GlobalExceptionResolver.class
+com\lagou\edu\pojo\User.class
 com\lagou\edu\controller\DemoController.class
