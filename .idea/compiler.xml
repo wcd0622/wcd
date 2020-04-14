@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc" />
+        <module name="ssm" />
+        <module name="spring-data-jpa" />
         <module name="springmvc-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mvc" target="11" />
+      <module name="spring-data-jpa" target="1.5" />
       <module name="springmvc-dem0" target="1.5" />
       <module name="springmvc-demo" target="11" />
+      <module name="ssm" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
