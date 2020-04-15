@@ -8,16 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mvc" />
         <module name="ssm" />
-        <module name="spring-data-jpa" />
         <module name="springmvc-demo" />
+        <module name="spring-data-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mvc" target="11" />
-      <module name="spring-data-jpa" target="1.5" />
+      <module name="spring-data-jpa" target="11" />
       <module name="springmvc-dem0" target="1.5" />
       <module name="springmvc-demo" target="11" />
-      <module name="ssm" target="11" />
+      <module name="ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
