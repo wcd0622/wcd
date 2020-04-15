@@ -21,4 +21,22 @@ public interface ResumeDao extends JpaRepository<Resume,Long>, JpaSpecificationE
 
     @Query("from Resume where id=?1 and name=?2")
     public List<Resume> findByJpql(Long id,String name);
+
+    /**
+     * 使用原生sql语句查询需要将nativeQuery设置为true 默认为false（jpql）
+     * @param name
+     * @param address
+     * @return
+     */
+    @Query(value = "select * from tb_resume where name like ?1 and address like ?2 ",nativeQuery = true)
+    public List<Resume> findBySql(String name,String address);
+
+    /**
+     * 方法命名规则
+     * 按照name模糊查询（like）
+     * 方法名findBy开头
+     * -属性名（首字母大写）
+     * -查询方式（模糊查询，等价查询）,如果不写查询方式，默认等价查询
+     */
+    public List<Resume> findByNameLikeAndAddress(String name,String address);
 }

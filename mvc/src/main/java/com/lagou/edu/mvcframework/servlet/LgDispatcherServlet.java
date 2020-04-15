@@ -1,9 +1,6 @@
 package com.lagou.edu.mvcframework.servlet;
 
-import com.lagou.edu.mvcframework.annotations.LagouAutowired;
-import com.lagou.edu.mvcframework.annotations.LagouController;
-import com.lagou.edu.mvcframework.annotations.LagouRequestMapping;
-import com.lagou.edu.mvcframework.annotations.LagouService;
+import com.lagou.edu.mvcframework.annotations.*;
 import com.lagou.edu.mvcframework.pojo.Handler;
 import org.apache.commons.lang3.StringUtils;
 
@@ -89,6 +86,13 @@ public class LgDispatcherServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
+        try {
+            handler.getMethod().invoke(handler.getSecurity(), paraValues);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
     }
 
     private Handler getHandler(HttpServletRequest req) {
@@ -148,6 +152,7 @@ public class LgDispatcherServlet extends HttpServlet {
             if (!aClass.isAnnotationPresent(LagouController.class)){
                 continue;
             }
+
             String baseUrl = "";
             if (aClass.isAnnotationPresent(LagouRequestMapping.class)) {
                 LagouRequestMapping annotation = aClass.getAnnotation(LagouRequestMapping.class);
@@ -166,8 +171,62 @@ public class LgDispatcherServlet extends HttpServlet {
                 LagouRequestMapping annotation = method.getAnnotation(LagouRequestMapping.class);
                 String methodUrl = annotation.value(); //query
                 String url = baseUrl + methodUrl;//计算出来的url /demo/query
+                if (url.equals("username=zhangsan")) {
+                    //把method所有信息以及url封装为一个handler
+                    Handler handler = new Handler(entry.getValue(), method, method, Pattern.compile(url));
+//处理计算方法的位置参数信息 //HttpServletRequest request, HttpServletResponse response,String name
+                    Parameter[] parameters = method.getParameters();
+                    for (int j = 0; j < parameters.length; j++) {
+                        Parameter parameter = parameters[j];
+                        if (parameter.getType() == HttpServletRequest.class || parameter.getType() == HttpServletResponse.class) {
+                            //如果request和response对象，那么参数名写HttpServletRequest和HttpServletResponse
+                            handler.getParamIndexMapping().put(parameter.getType().getSimpleName(), j);
+                        } else {
+                            handler.getParamIndexMapping().put(parameter.getName(), j);//<name,2>
+                        }
+                    }
+
+                    //建立url和method之间的映射关系（map缓存起来）
+                    handlerMapping.add(handler);
+                } else {
+                    System.out.println("您无权访问此页面");
+                }
+
+            }
+        }
+    }
+    private void initHandlerMapping1() {
+
+        if (ioc.isEmpty()) { return; }
+        for (Map.Entry<String, Object> entry : ioc.entrySet()) {
+            //获取ioc中当前遍历的对象的class类型
+            Class<?> aClass = entry.getValue().getClass();
+
+
+            if (!aClass.isAnnotationPresent(LagouController.class)){
+                continue;
+            }
+
+            String baseUrl = "";
+            if (aClass.isAnnotationPresent(LagouSecurity.class)) {
+                LagouSecurity annotation = aClass.getAnnotation(LagouSecurity.class);
+                baseUrl = annotation.value();
+            }
+
+            //获取方法
+            Method[] methods = aClass.getMethods();
+            for (int i = 0; i < methods.length; i++) {
+                Method method = methods[i];
+                //方法没有标识LagouRequestMapping就不处理
+                if (!method.isAnnotationPresent(LagouSecurity.class)) {
+                    continue;
+                }
+                //方法标识LagouRequestMapping就处理
+                LagouSecurity annotation = method.getAnnotation(LagouSecurity.class);
+                String methodUrl = annotation.value();
+                String url = baseUrl + methodUrl;//计算出来的url ?username=zhangsan
                 //把method所有信息以及url封装为一个handler
-                Handler handler = new Handler(entry.getValue(), method, Pattern.compile(url));
+                Handler handler = new Handler(entry.getValue(),entry.getValue(), method, Pattern.compile(url));
 //处理计算方法的位置参数信息 //HttpServletRequest request, HttpServletResponse response,String name
                 Parameter[] parameters = method.getParameters();
                 for (int j = 0; j < parameters.length; j++) {
@@ -185,7 +244,6 @@ public class LgDispatcherServlet extends HttpServlet {
             }
         }
     }
-
     //实现依赖注入
     private void doAutoWired() {
 
@@ -257,6 +315,25 @@ public class LgDispatcherServlet extends HttpServlet {
                         ioc.put(beanName, aClass.newInstance());
                     }
                     //service层往往是有接口的，面向接口开发，此时再以接口名为id，放入一份对象到ioc中，便于后期根据接口类型注入
+                    Class<?>[] interfaces = aClass.getInterfaces();
+                    for (int j = 0; j < interfaces.length; j++) {
+                        Class<?> anInterface = interfaces[j];
+                        //以接口的类名作为id放入
+                        ioc.put(anInterface.getName(), aClass.newInstance());
+                    }
+                } else if (aClass.isAnnotationPresent(LagouSecurity.class)) {
+                    LagouSecurity annotation = aClass.getAnnotation(LagouSecurity.class);
+                    //获取注解value值
+                    String beanName = annotation.value();
+                    //如果制定了id，就以指定的为准
+                    if (!"".equals(beanName.trim())) {
+                        ioc.put(beanName, aClass.newInstance());
+                    } else {
+                        //如果没有指定，就以类名首字母小写
+                        beanName = lowerFirst(aClass.getSimpleName());
+                        ioc.put(beanName, aClass.newInstance());
+                    }
+                    //Security层往往是有接口的，面向接口开发，此时再以接口名为id，放入一份对象到ioc中，便于后期根据接口类型注入
                     Class<?>[] interfaces = aClass.getInterfaces();
                     for (int j = 0; j < interfaces.length; j++) {
                         Class<?> anInterface = interfaces[j];

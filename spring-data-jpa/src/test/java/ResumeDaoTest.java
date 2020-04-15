@@ -80,7 +80,28 @@ public class ResumeDaoTest {
  * 方式一：调用继承接口中的方法， findOne(),findById()
  * 方式二：可以引入jpql语句进行查询（jpa查询语言）语句进行查询 (=====>>>>jpql 语句类似于sql，只不过sql操作的是数据表和字段，
  * jpql操作的是对象和属性，比如 from Resume where id=xx)  hql
+ * 方式三：可以引入原生sql语句
+ * 方式四：可以在接口中自定义方法，而且不必引入jpql或者sql语句，这种方式叫做方法命名规则查询，
+ * 也就是说定义的接口方法名是按照一定规则形成的，那么框架就能够理解我们的意图
+ *方式五：动态查询
+ * service层传入dao层的条件不确定，把service拿到条件封装成一个对象传递给Dao层，
+ * 这个对象就叫做Specification（对条件的一个封装）
+ *           根据条件查询单个对象
+ *           Optional<T> findOne(@Nullable Specification<T> var1);
+ *           根据条件查询所有
+ *           List<T> findAll(@Nullable Specification<T> var1);
+ *            根据条件查询并进行分页
+ *           Page<T> findAll(@Nullable Specification<T> var1, Pageable var2);
+ *           根据条件查询并进行排序
+ *           List<T> findAll(@Nullable Specification<T> var1, Sort var2);
+ *            根据条件统计
+ *           long count(@Nullable Specification<T> var1);
  *
+ *          nterface Specification<T>
+ *                 toPredicate(Root<T> var1, CriteriaQuery<?> var2, CriteriaBuilder var3);用来封装查询条件的
+ *                     Root:根属性（查询所需要的任何属性都可以从根对象中获取）
+ *                     CriteriaQuery 自定义查询方式 用不上
+ *                     CriteriaBuilder 查询构造器，封装了很多的查询条件（like = 等）
  *
  */
 
@@ -92,5 +113,116 @@ public void testJpql(){
         System.out.println(resume);
 
 }
-}}
+}
+    @Test
+    public void testSql(){
+        List<Resume> list = resumeDao.findBySql("李%", "上海%");
+        for (int i = 0; i < list.size(); i++) {
+            Resume resume =  list.get(i);
+            System.out.println(resume);
+        }
+    }
+
+
+    @Test
+    public void testMethodName(){
+        List<Resume> list = resumeDao.findByNameLikeAndAddress("李%","上海");
+        for (int i = 0; i < list.size(); i++) {
+            Resume resume =  list.get(i);
+            System.out.println(resume);
+        }
+
+    }
+    @Test
+    public void testSort(){
+        Sort sort = new Sort(Sort.Direction.DESC,"id");
+        List<Resume> list = resumeDao.findAll(sort);
+        for (int i = 0; i < list.size(); i++) {
+            Resume resume =  list.get(i);
+            System.out.println(resume);
+        }
+    }
+
+
+    @Test
+    public void testPage(){
+        /**
+         * 第一个参数：当前查询的页数，从0开始
+         * 第二个参数：每页查询的数量
+         */
+        Pageable pageable  = PageRequest.of(0,2);
+        //Pageable pageable = new PageRequest(0,2);
+        Page<Resume> all = resumeDao.findAll(pageable);
+        System.out.println(all);
+        /*for (int i = 0; i < list.size(); i++) {
+            Resume resume =  list.get(i);
+            System.out.println(resume);
+        }*/
+    }
+
+    /**
+     * 动态查询，查询单个对象
+     */
+    @Test
+    public void testSpecfication() {
+        /**
+         * 动态条件封装
+         * 匿名内部类
+         *
+         * toPredicate：动态组装查询条件
+         *
+         *      借助于两个参数完成条件拼装，，， select * from tb_resume where name='张三'
+         *      Root: 获取需要查询的对象属性
+         *      CriteriaBuilder：构建查询条件，内部封装了很多查询条件（模糊查询，精准查询）
+         *
+         *      需求：根据name（指定为"张三"）查询简历
+         */
+        Specification<Resume> specification = new Specification<>() {
+            @Override
+            public Predicate toPredicate(Root<Resume> root, CriteriaQuery<?> query, CriteriaBuilder criteriaBuilder) {
+                //获取到name属性
+                Path<Object> name = root.get("name");
+
+                //使用CriteriaBuilder针对name属性构建条件（精准查询）
+                Predicate predicate = criteriaBuilder.equal(name, "张三");
+                return predicate;
+            }
+        };
+
+        Optional<Resume> optional = resumeDao.findOne(specification);
+        Resume resume = optional.get();
+        System.out.println(resume);
+    }
+
+
+    @Test
+    public void testSpecficationMultiCon(){
+
+        /**
+
+         *      需求：根据name（指定为"张三"）并且，address 以"北"开头（模糊匹配），查询简历
+         */
+
+        Specification<Resume> specification = new Specification<Resume>() {
+            @Override
+            public Predicate toPredicate(Root<Resume> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                // 获取到name属性
+                Path<Object> name = root.get("name");
+                Path<Object> address = root.get("address");
+                // 条件1：使用CriteriaBuilder针对name属性构建条件（精准查询）
+                Predicate predicate1 = criteriaBuilder.equal(name, "张三");
+                // 条件2：address 以"北"开头（模糊匹配）
+                Predicate predicate2 = criteriaBuilder.like(address.as(String.class), "北%");
+                // 组合两个条件
+                Predicate and = criteriaBuilder.and(predicate1, predicate2);
+                return and ;
+            }
+        };
+
+
+        Optional<Resume> optional = resumeDao.findOne(specification);
+        Resume resume = optional.get();
+        System.out.println(resume);
+    }
+}
 
