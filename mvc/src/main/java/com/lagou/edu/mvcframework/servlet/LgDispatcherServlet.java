@@ -171,7 +171,7 @@ public class LgDispatcherServlet extends HttpServlet {
                 LagouRequestMapping annotation = method.getAnnotation(LagouRequestMapping.class);
                 String methodUrl = annotation.value(); //query
                 String url = baseUrl + methodUrl;//计算出来的url /demo/query
-                if (url.equals("username=zhangsan")) {
+
                     //把method所有信息以及url封装为一个handler
                     Handler handler = new Handler(entry.getValue(), method, method, Pattern.compile(url));
 //处理计算方法的位置参数信息 //HttpServletRequest request, HttpServletResponse response,String name
@@ -188,9 +188,7 @@ public class LgDispatcherServlet extends HttpServlet {
 
                     //建立url和method之间的映射关系（map缓存起来）
                     handlerMapping.add(handler);
-                } else {
-                    System.out.println("您无权访问此页面");
-                }
+
 
             }
         }
@@ -225,6 +223,7 @@ public class LgDispatcherServlet extends HttpServlet {
                 LagouSecurity annotation = method.getAnnotation(LagouSecurity.class);
                 String methodUrl = annotation.value();
                 String url = baseUrl + methodUrl;//计算出来的url ?username=zhangsan
+                if (url.equals("username=zhangsan")) {
                 //把method所有信息以及url封装为一个handler
                 Handler handler = new Handler(entry.getValue(),entry.getValue(), method, Pattern.compile(url));
 //处理计算方法的位置参数信息 //HttpServletRequest request, HttpServletResponse response,String name
@@ -238,9 +237,12 @@ public class LgDispatcherServlet extends HttpServlet {
                         handler.getParamIndexMapping().put(parameter.getName(), j);//<name,2>
                     }
                 }
-
+                    handlerMapping.add(handler);
                 //建立url和method之间的映射关系（map缓存起来）
-                handlerMapping.add(handler);
+                } else {
+                    System.out.println("您无权访问此页面");
+                }
+
             }
         }
     }
