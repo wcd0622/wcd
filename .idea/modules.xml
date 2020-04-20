@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" filepath="$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wcd.iml" filepath="$PROJECT_DIR$/.idea/wcd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" filepath="$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" />
     </modules>
   </component>
 </project>
