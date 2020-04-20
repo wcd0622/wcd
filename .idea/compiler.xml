@@ -7,22 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc" />
-        <module name="ssm" />
         <module name="springmvc-demo" />
         <module name="spring-data-jpa" />
+        <module name="zdyspringbootstarter" />
+        <module name="spinrgmvc-jpa" />
+        <module name="ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mvc" target="11" />
+      <module name="spinrgmvc-jpa" target="11" />
       <module name="spring-data-jpa" target="11" />
       <module name="springmvc-dem0" target="1.5" />
       <module name="springmvc-demo" target="11" />
       <module name="ssm" target="11" />
+      <module name="zdyspringbootstarter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mvc" options="-parameters" />
+      <module name="spinrgmvc-jpa" options="" />
       <module name="springmvc-demo" options="-parameters" />
     </option>
   </component>
