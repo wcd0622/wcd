@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:11:23 +0800] "GET /demo/handle11 HTTP/1.1" 404 995 http-bio-8080-exec-1 832
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:11:46 +0800] "GET /demo/handle11 HTTP/1.1" 404 995 http-bio-8080-exec-3 3
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:12:00 +0800] "GET /demo/handle01 HTTP/1.1" 200 274 http-bio-8080-exec-6 395
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:12:31 +0800] "GET /demo/handle11 HTTP/1.1" 404 995 http-bio-8080-exec-8 3
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:13:15 +0800] "GET /demo/handle11 HTTP/1.1" 200 274 http-bio-8080-exec-1 801
-0:0:0:0:0:0:0:1 - - [10/Apr/2020:11:14:19 +0800] "GET /demo/handle12 HTTP/1.1" 200 274 http-bio-8080-exec-1 850
