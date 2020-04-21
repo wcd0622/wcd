@@ -1,10 +1,16 @@
 package com.lagou.pojo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+
+import java.net.URL;
+import java.sql.SQLOutput;
 
 @EnableConfigurationProperties(SimpleBean.class)
 @ConfigurationProperties(prefix = "simplebean")
+@Configuration
 public class SimpleBean {
 
     private int id;
@@ -33,4 +39,5 @@ public class SimpleBean {
                 ", name='" + name + '\'' +
                 '}';
     }
+
 }

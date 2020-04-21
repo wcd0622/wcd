@@ -2,25 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot03_data" />
         <module name="mvc" />
-        <module name="springmvc-demo" />
+        <module name="ssm" />
         <module name="spring-data-jpa" />
         <module name="zdyspringbootstarter" />
         <module name="spinrgmvc-jpa" />
-        <module name="ssm" />
+        <module name="springmvc-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mvc" target="11" />
       <module name="spinrgmvc-jpa" target="11" />
       <module name="spring-data-jpa" target="11" />
+      <module name="springboot03_data" target="11" />
       <module name="springmvc-dem0" target="1.5" />
       <module name="springmvc-demo" target="11" />
       <module name="ssm" target="11" />
+      <module name="test" target="1.5" />
       <module name="zdyspringbootstarter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +32,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mvc" options="-parameters" />
       <module name="spinrgmvc-jpa" options="" />
+      <module name="springboot03_data" options="-parameters" />
       <module name="springmvc-demo" options="-parameters" />
     </option>
   </component>
