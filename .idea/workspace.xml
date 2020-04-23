@@ -2,118 +2,225 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6238a269-be0c-45d3-a78e-c2fcd781c443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/springboot03_data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/applicaiton.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/docker/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/frmap/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/frmap/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/frmap/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/frmap/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/frmap/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/gomap/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/lambda/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/lambda/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/lambda/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/lambda/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phmap/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phpmap/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phpmap/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phpmap/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phpmap/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/phpmap/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/roadmap/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/roadmap/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/roadmap/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/roadmap/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/article_img/roadmap/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/amazeui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/amazeui.flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/amazeui.flat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/css/xcode.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/avatars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/back2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/back3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/back_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/img/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/amazeui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/assets/js/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/css/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/attach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/bg/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/bg/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/bg/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/bg/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/bg/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/images/small/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/instantclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/jquery.app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/js/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/dropzone/4.3.0/min/basic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/dropzone/4.3.0/min/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/dropzone/4.3.0/min/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/jquery-multi-select/img/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/jquery-multi-select/jquery.quicksearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/jquery.steps/demo/css/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/img/editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/jquery.scrollto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/md.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/pagedown-extra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/md/js/pagedown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/css/mditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/css/mditor.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/css/mditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/674f50d287a8c48dc19ba404d20fe713.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/912ec66d7572ff821749319396470bde.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/a48ac41620cd818c5020d0f4302489ff.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/af7ae505a9eed503f8b8e6982036873e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/b06871f281fee6b241d60582ae9369b9.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/font/fee66e712a8a08eef5805a46892932ad.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/js/mditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/js/mditor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/js/mditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/mditor/js/mditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/multi-select/0.9.12/css/multi-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/multi-select/0.9.12/img/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/multi-select/0.9.12/js/jquery.multi-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2.dist.css/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2.dist.css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2.dist.css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2.dist.css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2.dist.css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2_locale_zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/3.4.8/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/dist/css/select2-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/dist/css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/dist/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/dist/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/select2/dist/css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/tagsinput/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/tagsinput/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/to-markdown/3.1.0/to-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/back/plugins/toggles/toggles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/css/xcode.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/bg-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/bloglogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/img/rand/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/instantclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/mvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm/ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm/ssm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdyspringbootstarter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zdyspringbootstarter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdyspringbootstarter/src/main/java/com/lagou/pojo/SimpleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/zdyspringbootstarter/src/main/java/com/lagou/pojo/SimpleBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,6 +237,9 @@
     <ignored path="$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
     <ignored path="$PROJECT_DIR$/springboot03_data/target/" />
+    <ignored path="$PROJECT_DIR$/springboot04_thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/springboot05_cache/target/" />
+    <ignored path="$PROJECT_DIR$/springboot06_homework/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,19 +266,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/pom.xml">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Comment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,19 +278,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Address.java">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/ArticleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/PersonRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="252">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,66 +290,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="1764">
+              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/CommentRepository.java">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+            <state relative-caret-position="116">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#h2#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/footer.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Article.java">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/headroom.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/ArticleMapper.java">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/highlight.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-end-line="2" selection-end-column="12711" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/instantclick.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/header.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -269,6 +370,7 @@
         <option value="AnnotationType" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
         <option value="Interface" />
       </list>
     </option>
@@ -284,26 +386,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm/src/main/java/com/lagou/edu/mapper/AccountMapper.java" />
-        <option value="$PROJECT_DIR$/ssm/src/main/resources/com/lagou/edu/mapper/AccountMapper.xml" />
-        <option value="$PROJECT_DIR$/ssm/src/main/java/com/lagou/edu/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/ssm/src/main/java/com/lagou/edu/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm/src/main/resources/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/ssm/src/test/java/MybatisSpringTest.java" />
-        <option value="$PROJECT_DIR$/ssm/src/main/resources/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/ssm/src/main/java/com/lagou/edu/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/mvcframework/annotations/LagouSecurity.java" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/lagou/edu/pojo/Resume.java" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/lagou/edu/dao/ResumeDao.java" />
-        <option value="$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/demo/service/impl/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/mvcframework/pojo/Handler.java" />
-        <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/sucess.jsp" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/test/java/ResumeDaoTest.java" />
-        <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/service/impl/ResumeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/error.jsp" />
         <option value="$PROJECT_DIR$/spinrgmvc-jpa/src/main/resources/applicationContext.xml" />
@@ -324,7 +406,6 @@
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/zdyspringbootstarter/src/main/java/com/lagou/pojo/SimpleBean.java" />
         <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/Springboot03DataApplication.java" />
-        <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java" />
         <option value="$PROJECT_DIR$/springboot03_data/pom.xml" />
         <option value="$PROJECT_DIR$/springboot03_data/src/main/resources/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/ArticleMapper.java" />
@@ -335,6 +416,27 @@
         <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Address.java" />
         <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/PersonRespository.java" />
         <option value="$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot04_thymeleaf/src/main/java/com/lagou/config/MyLocaleResovle.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/Springboot05CacheApplication.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/ApiCommentController.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/pojo/Comment.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/pojo/Article.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/repository/CommentRepository.java" />
+        <option value="$PROJECT_DIR$/springboot04_thymeleaf/src/main/java/com/lagou/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/service/ApiCommentService.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/repository/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/Springboot06HomeworkApplication.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/bbc.html" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/index.html" />
       </list>
     </option>
   </component>
@@ -349,6 +451,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
         <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
       </MavenImportingSettings>
     </option>
@@ -382,7 +485,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -463,17 +565,6 @@
               <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -488,33 +579,44 @@
             <path>
               <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lagou" type="462c0819:PsiDirectoryNode" />
@@ -522,27 +624,91 @@
             <path>
               <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcd" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lagou" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot03_data" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcd" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot06_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhenfeng13-My-Blog-master/My-Blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -557,25 +723,32 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wcd\ssm\src\main" />
-      <recent name="E:\wcd\springmvc-demo\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lagou.edu.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wcd\springboot03_data\src\test\java" />
-      <recent name="D:\wcd\springboot03_data\src\main\java\com\lagou" />
-      <recent name="D:\wcd\springboot03_data\src\main\java" />
-      <recent name="D:\wcd\spinrgmvc-jpa\src" />
-      <recent name="D:\wcd\spinrgmvc-jpa\src\main\resources" />
+      <recent name="D:\wcd\springboot06_homework\src\main\resources" />
+      <recent name="D:\wcd\springboot06_homework\src\main\java\com\lagou" />
+      <recent name="D:\wcd\springboot04_thymeleaf\src\main\resources\templates" />
+      <recent name="D:\wcd\springboot06_homework\src\main\resources\templates" />
+      <recent name="D:\wcd\springboot06_homework\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lagou.edu.mvcframework.annotations" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lagou.edu.pojo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wcd\springboot06_homework\src\main\resources\templates\client" />
+      <recent name="D:\wcd\springboot06_homework\src\main\resources\templates" />
+      <recent name="D:\wcd\ssm\src\main" />
+      <recent name="E:\wcd\springmvc-demo\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -586,24 +759,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.15505464" />
   </component>
-  <component name="RunManager" selected="JUnit.Springboot03DataApplicationTests.selectPerson">
-    <configuration name="Springboot03DataApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot03_data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lagou.springboot03_data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lagou.springboot03_data" />
-      <option name="MAIN_CLASS_NAME" value="com.lagou.springboot03_data.Springboot03DataApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Springboot06HomeworkApplication">
     <configuration name="Springboot03DataApplicationTests.savePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot03_data" />
       <extension name="coverage">
@@ -615,22 +773,6 @@
       <option name="PACKAGE_NAME" value="com.lagou.springboot03_data" />
       <option name="MAIN_CLASS_NAME" value="com.lagou.springboot03_data.Springboot03DataApplicationTests" />
       <option name="METHOD_NAME" value="savePerson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Springboot03DataApplicationTests.selectArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot03_data" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lagou.springboot03_data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lagou.springboot03_data" />
-      <option name="MAIN_CLASS_NAME" value="com.lagou.springboot03_data.Springboot03DataApplicationTests" />
-      <option name="METHOD_NAME" value="selectArticle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -722,13 +864,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot04ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot04_thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.Springboot04ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot05_cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.Springboot05CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot06HomeworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot06_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.Springboot06HomeworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Springboot06HomeworkApplication" />
         <item itemvalue="JUnit.Springboot03DataApplicationTests.selectPerson" />
         <item itemvalue="JUnit.Springboot03DataApplicationTests.savePerson" />
         <item itemvalue="JUnit.Springboot03DataApplicationTests.selectComment" />
-        <item itemvalue="JUnit.Springboot03DataApplicationTests.selectArticle" />
-        <item itemvalue="JUnit.Springboot03DataApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -766,6 +934,9 @@
       <workItem from="1587451366733" duration="1421000" />
       <workItem from="1587453186275" duration="539000" />
       <workItem from="1587454591145" duration="4705000" />
+      <workItem from="1587518053210" duration="296000" />
+      <workItem from="1587519312576" duration="29166000" />
+      <workItem from="1587608582111" duration="964000" />
     </task>
     <servers />
   </component>
@@ -802,7 +973,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107909000" />
+    <option name="totallyTimeSpent" value="138335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,7 +988,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32171583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -825,21 +996,22 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.49716714" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.37677053" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.4305949" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.49716714" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013405" side_tool="true" weight="0.37677053" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -852,355 +1024,208 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.20788912" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31769437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.5651558" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865952" weight="0.49716714" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013405" side_tool="true" weight="0.37677053" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32908848" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25670242" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.20788912" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springmvc-demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc-demo/src/main/webapp/WEB-INF/jsp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/lagou/edu/dao/ResumeDao.java">
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#35#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/test/java/ResumeDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/demo/controller/LofinController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/demo/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="122">
+          <caret line="70" selection-start-line="70" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/dao/ResumeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#35#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/pojo/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/service/impl/ResumeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/service/ResumeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2613">
-          <caret line="111" column="101" selection-start-line="111" selection-start-column="101" selection-end-line="111" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/test/java/ResumeDaoTest.java" />
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/java/com/lagou/edu/controller/ResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3659">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Software/apache-maven-3.5.4-bin/repository/org/springframework/spring-beans/5.1.12.RELEASE/spring-beans-5.1.12.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="597" column="26" selection-start-line="597" selection-start-column="26" selection-end-line="597" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spinrgmvc-jpa/src/main/webapp/WEB-INF/jsp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/src/main/java/com/lagou/edu/mvcframework/servlet/LgDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/src/main/java/com/lagou/pojo/SimpleBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/applicaiton.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zdyspringbootstarter/src/main/java/com/lagou/config/MyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/applicaiton.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Software/apache-maven-3.5.4-bin/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/org/apache/ibatis/type/TypeAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/mapper/ArticleMapper.xml">
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/java/com/lagou/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/Springboot03DataApplication.java">
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/java/com/lagou/controller/ApiCommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="64">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/java/com/lagou/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/springboot05_cache (1).iml" />
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/springboot05_cache.iml" />
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/java/com/lagou/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/java/com/lagou/Springboot05CacheApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot05_cache/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/config/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/pojo/Comment.java" />
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/java/com/lagou/Springboot04ThymeleafApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/java/com/lagou/config/MyLocaleResovle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/java/com/lagou/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2#11#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java">
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/i18n/login.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/i18n/login_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/i18n/login_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/CommentController.java" />
+    <entry file="file://$PROJECT_DIR$/springboot04_thymeleaf/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/service/CommentService.java" />
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/service/ApiCommentService.java" />
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/Springboot03DataApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot03_data/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="341">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/CommentRepository.java">
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Comment.java">
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/CommentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/repository/CommentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/repository/ArticleRepository.java" />
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-299">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/CommentMapper.java" />
     <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/mapper/ArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1211,43 +1236,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Article.java">
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/mapper/ArticleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Person.java">
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/bbc.html" />
+    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/pojo/Address.java">
+    <entry file="jar://$PROJECT_DIR$/../Software/apache-maven-3.5.4-bin/repository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/page/PageMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#2755#2756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/Springboot06HomeworkApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/mapper/ArticleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/main/java/com/lagou/repository/PersonRepository.java">
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/pojo/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot03_data/src/test/java/com/lagou/springboot03_data/Springboot03DataApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/java/com/lagou/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/headroom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/highlight.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-end-line="2" selection-end-column="12711" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/static/user/js/instantclick.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot06_homework/src/main/resources/templates/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#h2#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1302,7 +1411,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot03_data</last-edited>
+          <last-edited>springboot06_homework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

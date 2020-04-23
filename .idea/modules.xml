@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" filepath="$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot03_data/springboot03_data.iml" filepath="$PROJECT_DIR$/springboot03_data/springboot03_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot04_thymeleaf/springboot04_thymeleaf.iml" filepath="$PROJECT_DIR$/springboot04_thymeleaf/springboot04_thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot05_cache/springboot05_cache.iml" filepath="$PROJECT_DIR$/springboot05_cache/springboot05_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot06_homework/springboot05_cache (1).iml" filepath="$PROJECT_DIR$/springboot06_homework/springboot05_cache (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot06_homework/springboot06_homework.iml" filepath="$PROJECT_DIR$/springboot06_homework/springboot06_homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" filepath="$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wcd.iml" filepath="$PROJECT_DIR$/.idea/wcd.iml" />

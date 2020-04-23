@@ -1,7 +1,6 @@
 package com.lagou.springboot03_data;
 
 import com.lagou.mapper.ArticleMapper;
-import com.lagou.mapper.CommentMapper;
 import com.lagou.pojo.Address;
 import com.lagou.pojo.Article;
 import com.lagou.pojo.Comment;
