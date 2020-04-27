@@ -18,10 +18,6 @@
         <option value="$PROJECT_DIR$/spring-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/spinrgmvc-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/zdyspringbootstarter/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot03_data/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot04_thymeleaf/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot05_cache/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot06_homework/pom.xml" />
       </list>
     </option>
   </component>
