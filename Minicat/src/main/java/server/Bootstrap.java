@@ -39,7 +39,7 @@ public class Bootstrap {
     public void start() throws Exception {
 
         // 加载解析相关的配置，web.xml
-        loadServlet();
+       // loadServlet();
 
 
         // 定义一个线程池
@@ -88,7 +88,7 @@ public class Bootstrap {
          * 完成Minicat 2.0版本
          * 需求：封装Request和Response对象，返回html静态资源文件
          */
-        /*while(true) {
+        while(true) {
             Socket socket = serverSocket.accept();
             InputStream inputStream = socket.getInputStream();
 
@@ -99,7 +99,7 @@ public class Bootstrap {
             response.outputHtml(request.getUrl());
             socket.close();
 
-        }*/
+        }
 
 
         /**
@@ -139,68 +139,29 @@ public class Bootstrap {
 
 
 
-        System.out.println("=========>>>>>>使用线程池进行多线程改造");
+        // System.out.println("=========>>>>>>使用线程池进行多线程改造");
         /*
             多线程改造（使用线程池）
          */
-        while(true) {
+     /*   while(true) {
 
             Socket socket = serverSocket.accept();
             RequestProcessor requestProcessor = new RequestProcessor(socket,servletMap);
             //requestProcessor.start();
             threadPoolExecutor.execute(requestProcessor);
-        }
+        }*/
 
 
 
     }
 
 
-    private Map<String,HttpServlet> servletMap = new HashMap<String,HttpServlet>();
+   // private Map<String,HttpServlet> servletMap = new HashMap<String,HttpServlet>();
 
     /**
      * 加载解析web.xml，初始化Servlet
      */
-    private void loadServlet() {
-        InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("web.xml");
-        SAXReader saxReader = new SAXReader();
 
-        try {
-            Document document = saxReader.read(resourceAsStream);
-            Element rootElement = document.getRootElement();
-
-            List<Element> selectNodes = rootElement.selectNodes("//servlet");
-            for (int i = 0; i < selectNodes.size(); i++) {
-                Element element =  selectNodes.get(i);
-                // <servlet-name>lagou</servlet-name>
-                Element servletnameElement = (Element) element.selectSingleNode("servlet-name");
-                String servletName = servletnameElement.getStringValue();
-                // <servlet-class>server.LagouServlet</servlet-class>
-                Element servletclassElement = (Element) element.selectSingleNode("servlet-class");
-                String servletClass = servletclassElement.getStringValue();
-
-
-                // 根据servlet-name的值找到url-pattern
-                Element servletMapping = (Element) rootElement.selectSingleNode("/web-app/servlet-mapping[servlet-name='" + servletName + "']");
-                // /lagou
-                String urlPattern = servletMapping.selectSingleNode("url-pattern").getStringValue();
-                servletMap.put(urlPattern, (HttpServlet) Class.forName(servletClass).newInstance());
-
-            }
-
-
-
-        } catch (DocumentException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-    }
 
 
     /**

@@ -3,13 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Minicat/Minicat.iml" filepath="$PROJECT_DIR$/Minicat/Minicat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" filepath="$PROJECT_DIR$/spinrgmvc-jpa/spinrgmvc-jpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" filepath="$PROJECT_DIR$/springmvc-demo/springmvc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wcd.iml" filepath="$PROJECT_DIR$/.idea/wcd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" filepath="$PROJECT_DIR$/zdyspringbootstarter/zdyspringbootstarter.iml" />
     </modules>
   </component>
 </project>

@@ -6,11 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mvc" />
         <module name="springmvc-demo" />
-        <module name="spring-data-jpa" />
-        <module name="zdyspringbootstarter" />
-        <module name="spinrgmvc-jpa" />
         <module name="Minicat" />
         <module name="ssm" />
       </profile>
