@@ -11,10 +11,12 @@
         <module name="spring-data-jpa" />
         <module name="zdyspringbootstarter" />
         <module name="spinrgmvc-jpa" />
+        <module name="Minicat" />
         <module name="ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Minicat" target="11" />
       <module name="mvc" target="11" />
       <module name="spinrgmvc-jpa" target="11" />
       <module name="spring-data-jpa" target="11" />
