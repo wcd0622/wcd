@@ -23,7 +23,8 @@ public class Response {
 
 
     // 使用输出流输出指定字符串
-    public void output(String content) throws IOException {
+    public void
+    output(String content) throws IOException {
         outputStream.write(content.getBytes());
     }
 
