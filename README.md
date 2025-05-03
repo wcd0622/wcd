@@ -1,2 +1,2 @@
 # wcd
-This is a legend begin
+This is a new beginning
